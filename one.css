@@ -1,0 +1,7 @@
+ul li{display: inline-block; }
+li a{text-decoration: none;background-color:#c0392b ; color: #fff; padding:1px 3px;}
+li a:hover{background:#e74c3c ; border: 1px solid #000;}
+.mother{ height: 150px; width: 100%;display: flex; gap: 10px;}
+.mother div{background-color:#27ae60 ; flex-basis: 25%; padding-left: 2px; color: #fff;}
+button{background-color:  #e74c3c; color: #fff;width: 50px; border: none; height: 20px; }
+button:hover{background-color: #27ae60; border-radius: 5px;}
