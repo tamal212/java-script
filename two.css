@@ -1,0 +1,7 @@
+.dis{background: #7f8fa6;
+background-image: url('https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); width: 100%; height: 300px; z-index: 1;border-radius: 10px;}
+.dis2{}
+.dis2 h2{padding-top: 15px; margin-bottom:7px ; text-align: center; color:#8395a7 ; font-family:  monospace; font-size: 25px; z-index: 2;}
+.dis2 p{
+  color:#f5f6fa ; z-index: 3; z-index: 3;
+}
