@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="open.css">
   <link rel="stylesheet" href="two.css">
   <title>Display setup</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -22,17 +25,40 @@
     </nav>
   </header>
   <main>
+    <button onclick="ok()" id="large"><i class="fa-regular fa-font-awesome"></i>click</button>
+    <h4 id="ok"></h4>
+    <h2 id="pp"></h2>
+    <form action="data" id="form" onkeypress="up()">
+      <label for="name">your name:</label>
+      <input type="email" placeholder="email pleace" <label for="email">your name:</label>
+      <input type="password" placeholder="password pleace">
+      <input type="submit" value="send" id="lili">
+    </form>
+    <!--<button id="like" oncontextmenu="like()"><i class="fa-regular fa-thumbs-up"></i>like</button>
+    <br>
+    <button oncdblclick="button()" id="button">me</button>-->
     <section class="dis">
       <div class="dis2">
         <h2>flower</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nam, perspiciatis dolorum cumque sed possimus
           ex itaque?</p>
       </div>
-
     </section>
-    <script src="two.js"></script>
+    <div id="content">
+      <p>dolorum, saepe provident, corrupti nobis commodi recusandae accusamus porro ipsam nulla fugit harum nisi odio
+        fugit porro consequatur eius quo
+        necessitatibus commodi temporibus, saepe illum eum, inventore architecto. Praesentium error iure, aliquam
+        officia quisquam quis facere magni velit est neque dolor laboriosam sequi accusamus voluptate soluta assumenda
+        veritatis tenetur minus odio amet totam aspernatur qui laborum vitae. Praesentium sit consectetur tempora minus
+        recusandae perferendis possimus deleniti repudiandae excepturi, est rerum minima. Totam, natus est possimus
+        maxime dolorum ab sunt reprehenderit repellat at suscipit distinctio quas fugit aliquid optio delectus
+        blanditiis voluptate neque incidunt? Impedit nihil accusantium ratione quas culpa excepturi rerum ut adipisci
+        molestias optio!</p>
+    </div>
+    <!--<button onmouseenter='one()' id="but">like</button>-->
+
   </main>
-  </header>
+  <script src="two.js"></script>
 </body>
 
 </html>

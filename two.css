@@ -5,3 +5,10 @@ background-image: url('https://images.unsplash.com/photo-1517487881594-2787fef5e
 .dis2 p{
   color:#f5f6fa ; z-index: 3; z-index: 3;
 }
+button,#form input[type='submit']{background:red; border: 0px; width:50px; border-radius: 5px; color: #fff; transition: 0.5s; cursor:auto; height: 20px; display: flex;}
+button,#form input[type='submit']:hover{background:#ffb8b8;}
+ #like i{height:10px;display:flex; justify-content: center;}  
+ button{display: flex; background-color:#ff4757;color:#ffa502; border: 0px; border-radius: 5px; }
+ #form{height: 150px; padding: 10px;}
+ #form label,#form input{display: block;margin-bottom: 5px;} 
+ 
